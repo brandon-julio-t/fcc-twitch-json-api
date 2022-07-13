@@ -58,7 +58,7 @@ export default defineComponent({
       />
 
       <Skeleton v-if="isLoading" class="h-6 w-full max-w-[8rem]" />
-      <p class="flex flex-1 justify-between" v-else>
+      <p class="flex flex-1 items-center justify-between" v-else>
         <span class="flex-grow">{{ user?.username }}</span>
 
         <span
